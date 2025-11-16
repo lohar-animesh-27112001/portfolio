@@ -392,14 +392,14 @@ form button:active {
     transform: translateY(0);
 }
 
-.contact ul {
+form ul {
     list-style: none;
     padding: 0;
     margin-top: 2.5rem;
     display: flex;
     /* width: 30%; */
     justify-content: space-between;
-    gap: .7rem;
+    gap: 1.5rem;
     /* I want fixed inner gap */
 
 }
