@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIMESH | PORTFOLIO</title>
+    <link rel="icon" type="image/png" href="./images/ANI-RESUME-Photoroom.png">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <div id="portfolio"><p>Portfolio</p></div>
+        <ul>
+            <li id="home" class="currbtn">Home</li>
+            <li id="projects">Projects</li>
+            <li id="education">Education</li>
+            <li id="contact">Contact</li>
+        </ul>
+        <button onclick="window.location.href='./documents/Animesh_Lohar_Resume.pdf'">Download Resume</button>
+    </nav>
+    <header id="home_section" class="home">
+        <p>
+            Hello, I'm <span>Animesh Lohar</span><br><br>
+            Pursuing <span>M.Tech</span> in <span>Computer Science & Technology</span> from <span>Indian Institute of Technology Delhi</span><br><br>
+            Passed out <span>B.Tech</span> in <span>Information Technology</span> from <span>RCC Institute of Information Technology, Kolkata ( Affl. to MAKAUT )</span><br><br>
+            Skilled in <span>Machine Learning, Deep Learning, Reinforcement Learning, Computer Vision, NLP, LLM, Web Development, Databases</span>
+        </p>
+        <img id="img1" src="./images/ANI-RESUME-Photoroom.png" alt="">
+    </header>
+    <!-- projects -->
+    <section id="projects_section" class="hidden">
+        <div class="cards">
+            <div class="project">
+                <div class="card">
+                    <p>Decorder Only Transformer Model From Scratch (Prof. Tanmoy Chakraborty) (Aug, 25 - Nov, 25)</p>
+                    <a href="https://github.com/lohar-animesh-27112001/ELL881-advance_LLM-assignment" class="btn">GitHub Link</a>
+                </div>
+                <p>The complete implementation of a decoder-only transformer language model from scratch, trained on the TinyStories dataset. The implementation includes all core components of the transformer architecture, training with teacher forcing, and various inference enhancements including beam search, KV caching, gradient accumulation, and gradient checkpointing. All components are implemented using only basic PyTorch operations as required by the assignment constraints.</p>
+            </div>
+            <div class="project">
+                <div class="card">
+                    <p>Analyzing In-Context Learning in Language Models using Counterfactuals (Ongoing M.Tech Thesis under Prof. Sougata Mukherjea) (Jul, 25 - Present)</p>
+                    <a href="https://github.com/lohar-animesh-27112001/analyzing_in-context_learning_in_language-models_using_counterfactuals" class="btn">GitHub Link</a>
+                </div>
+                <p>This research project systematically investigates the mechanisms of in-context learning (ICL) in transformer-based language models through controlled counterfactual experiments. By testing how models resolve conflicts between pre-trained knowledge and contextual information, we uncover fundamental insights about reasoning flexibility, attention mechanisms, and instructional control in modern AI systems.</p>
+            </div>
+            <div class="project">
+                <div class="card">
+                    <p>Deep Learning for MRI Reconstruction (Prof. Monika Agrawal) (May, 25 - Present)</p>
+                    <a href="https://github.com/lohar-animesh-27112001/IIT-DELHI" class="btn">GitHub Link</a>
+                </div>
+                <p>Worked on India’s first govt-developed MRI (AIIMS Delhi & SAMEER); Built pipeline from raw K-space -> IFFT -> MRI; Applied Fourier Neural Operator to predict missing datapoints and enhance image quality.</p>
+            </div>
+            <div class="project">
+                <div class="card">
+                    <p>Robust Aggregation for Federated Learning (Prof. Harshan Jagadeesh) (Jan, 25 - May, 25)</p>
+                    <a href="https://github.com/lohar-animesh-27112001/IIT-DELHI" class="btn">GitHub Link</a>
+                </div>
+                <p>Implemented robust aggregation against Byzantine clients; used Weiszfeld algorithm for geometric median; Ensured secure aggregation & communication efficiency; evaluated on non-IID datasets.</p>
+            </div>
+            <div class="project">
+                <div class="card">
+                    <p>Counterspeech Generation & Factuality Analysis (Prof. Tanmoy Chakraborty) (Feb, 25 - Present)</p>
+                    <a href="https://github.com/lohar-animesh-27112001/IIT-DELHI" class="btn">GitHub Link</a>
+                </div>
+                <p>Built end-to-end counter-speech system; implemented n-gram LM, CRF, and Transformer-based GEC from scratch; Trained seq2seq with attention visualizations; Factual Analysis in LLM-generated counterspeech and applied Inference-Time Intervention to improve reliability; Evaluated via BLEU/ROUGE/BERT Score & toxicity reduction.</p>
+            </div>
+            <div class="project">
+                <div class="card">
+                    <p>Deep Learning for MRI Reconstruction (Prof. Monika Agrawal) (May, 25 - Present)</p>
+                    <a href="https://github.com/lohar-animesh-27112001/IIT-DELHI" class="btn">GitHub Link</a>
+                </div>
+                <p>Worked on India’s first govt-developed MRI (AIIMS Delhi & SAMEER); built pipeline from raw K-space -> IFFT -> MRI; applied Fourier Neural Operator to predict missing datapoints and enhance image quality.</p>
+            </div>
+            <div class="project">
+                <div class="card">
+                    <p>Transformer for Image from scratch (Prof. Sumantra Dutta) (Mar, 25 - May, 25)</p>
+                    <a href="https://github.com/lohar-animesh-27112001/IIT-DELHI" class="btn">GitHub Link</a>
+                </div>
+                <p>Implemented Transformer from scratch (patch embedding, multi-head attention, positional encodings); Reduced attention complexity via Linformer; Introduced multi-scale patch embeddings.</p>
+            </div>
+            <div class="project">
+                <div class="card">
+                    <p>Reinforcement Learning with Policy Iteration & Value Iteration (Prof. Raunak Bhattacharyya)</p>
+                    <a href="https://github.com/lohar-animesh-27112001/IIT-DELHI" class="btn">GitHub Link</a>
+                </div>
+                <p>Applied DP-based RL in Football Simulation, Online Knapsack, Portfolio Optimization environments.</p>
+            </div>
+            <div class="project">
+                <div class="card">
+                    <p>Text Summarizer - End to End MLOps Pipeline (Prof. Sougata Mukherjea) (Mar, 25 - Aug, 25)</p>
+                    <a href="https://github.com/lohar-animesh-27112001/IIT-DELHI" class="btn">GitHub Link</a>
+                </div>
+                <p>Built abstractive text summarization with Transformers (Hugging Face). Developed full MLOps pipeline with DVC,MLflow, FastAPI, Docker, CI/CD for reproducible deployment.</p>
+            </div>
+        </div>
+    </section>
+    <!-- education -->
+    <section id="education_section" class="hidden">
+        <table>
+            <tr>
+                <th>Year</th>
+                <th>Degree / Board</th>
+                <th>Institute</th>
+                <th>GPA / Marks(%)</th>
+            </tr>
+            <tr>
+                <td>2024 - 26</td>
+                <td>M.Tech in Computer Technology</td>
+                <td>Indian Institute of Technology Delhi</td>
+                <td>7.17</td>
+            </tr>
+            <tr>
+                <td>2020 - 24</td>
+                <td>B.Tech in Information Technology</td>
+                <td>RCC Institute of Information Technology (Affl. to MAKAUT/WBUT)</td>
+                <td>8.47</td>
+            </tr>
+            <tr>
+                <td>2019 - 20</td>
+                <td>West Bengal Board (WBCHSE)</td>
+                <td>Rangamati Kironmoyee High School</td>
+                <td>83.6%</td>
+            </tr>
+            <tr>
+                <td>2017 - 18</td>
+                <td>West Bengal Board (WBBSE)</td>
+                <td>Hoomgarh Chandabila High School</td>
+                <td>81.7%</td>
+            </tr>
+        </table>
+        <div class="skills">
+            <p>Skills</p>
+            <ul>
+                <li><span>Programming:</span> C++, Python, Java</li>
+                <li><span>ML/DL Frameworks:</span> PyTorch, TensorFlow, Scikit-learn, Hugging Face, LangChain, Ragas, YOLO, OpenAI Gym</li>
+                <li><span>MLOps & Deployment:</span> FastAPI, Pydantic, Docker, MLflow, DVC, Airflow, CI/CD, DAGsHub, LLMOps, ETL pipelines</li>
+                <li><span>Tools & Platforms:</span> Git, VSCode, Jupyter, Gephi, LaTeX</li>
+                <li><span>Relevant Courseworks:</span> Data Structures & Algorithms, DBMS, Operating Systems, OOP, SQL, MongoDB, Web-Technology, Machine Learning, Deep Learning, Reinforcement Learning, Computer Vision, NLP & LLMs</li>
+            </ul>
+        </div>
+    </section>
+    <!-- contact -->
+    <section id="contact_section" class="hidden">
+        <h1>Contact Me</h1>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" maxlength="100" placeholder="Your Message (max 100 chars)" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p id="responseMsg"></p>
+        <ul>
+            <li><a href="mailto:lohar.animesh.2711@gmail.com">Email</a></li>
+            <li><a href="https://www.instagram.com/_animesh_lohar_">Instagram</a></li>
+            <li><a href="https://www.linkedin.com/in/animesh-lohar-3440a8205/">LinkedIn</a></li>
+            <li><a href="https://github.com/lohar-animesh-27112001">GitHub</a></li>
+        </ul>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
