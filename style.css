@@ -434,6 +434,12 @@ form button:active {
     text-align: center;
 }
 
+@media (max-width: 1350px) {
+    .contact ul {
+        width: 50%;
+    }
+}
+
 /* Responsive Design */
 @media (max-width: 1200px) {
     nav ul {
@@ -512,6 +518,10 @@ form button:active {
     #img1 {
         width: 28%;
         height: 32%;
+    }
+
+    .contact ul {
+        width: 65%;
     }
 }
 
