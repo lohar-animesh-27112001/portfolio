@@ -729,7 +729,7 @@ form ul {
     .contact ul {
         width: 80%;
         flex-wrap: wrap;
-        gap: 1rem;
+        gap: .6rem;
         justify-content: center;
     }
     
