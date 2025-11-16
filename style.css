@@ -398,7 +398,7 @@ form ul {
     margin-top: 2.5rem;
     display: flex;
     /* width: 30%; */
-    justify-content: space-between;
+    /* justify-content: space-between; */
     gap: 1.5rem;
     /* I want fixed inner gap */
 
