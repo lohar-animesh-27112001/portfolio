@@ -45,7 +45,8 @@ nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 30%;
+    /* width: 30%; */
+    gap: 1rem;
 }
 
 nav ul li {
@@ -312,6 +313,7 @@ table tr:last-child td {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .contact h1 {
@@ -331,10 +333,12 @@ form {
     width: 100%;
     max-width: 600px;
     font-family: "Montserrat", sans-serif;
+    text-align: center;
+    align-items: center;
 }
 
 form label {
-    display: block;
+    /* display: block; */
     margin-bottom: 0.5rem;
     font-weight: 600;
     color: #333;
@@ -393,8 +397,11 @@ form button:active {
     padding: 0;
     margin-top: 2.5rem;
     display: flex;
-    width: 30%;
+    /* width: 30%; */
     justify-content: space-between;
+    gap: .7rem;
+    /* I want fixed inner gap */
+
 }
 
 .contact ul li {
@@ -411,6 +418,8 @@ form button:active {
     font-weight: 580;
     font-style: normal;
     transition: background-color 0.3s ease;
+    /* margin-left: 2rem; */
+
 }
 
 .contact ul li a {
@@ -434,14 +443,83 @@ form button:active {
     text-align: center;
 }
 
-@media (max-width: 1350px) {
-    .contact ul {
-        width: 50%;
+.hamburger {
+    display: none; 
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    z-index: 1100;
+}
+
+.hamburger span {
+    width: 28px;
+    height: 3px;
+    background: black;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+/* Rotate animation when active */
+.hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translateY(8px);
+}
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+.hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translateY(-8px);
+}
+
+/* ---------------------- MOBILE SLIDE MENU ---------------------- */
+
+@media (max-width: 768px) {
+
+    nav {
+        padding: 12px 1.2rem;
+    }
+
+    /* Hide UL initially */
+    nav ul {
+        position: fixed;
+        top: 0px;
+        right: -768px; /* hidden */
+        height: 100vh;
+        width: 250px;
+        background: white;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2rem;
+        /* gap: 1rem; */
+        box-shadow: -4px 0 15px rgba(0,0,0,0.1);
+        transition: right 0.4s ease;
+    }
+
+    /* Slide menu when active */
+    nav ul.active {
+        right: 0; /* slide into view */
+        /* margin: 10px; */
+    }
+
+    /* Show hamburger */
+    .hamburger {
+        display: flex;
+        /* margin-bottom: 100px; */
+    }
+
+    /* Hide desktop resume button */
+    nav button {
+        display: none;
+    }
+
+    .cards {
+        margin-top: 5rem;
+        height: 90%;
     }
 }
 
 /* Responsive Design */
-@media (max-width: 1200px) {
+@media (max-width: 1350px) {
     nav ul {
         width: 45%;
     }
@@ -460,6 +538,10 @@ form button:active {
     .education,
     .contact {
         padding: 6rem 4rem;
+    }
+
+    .contact ul {
+        width: 50%;
     }
 }
 
@@ -493,6 +575,10 @@ form button:active {
     .cards {
         height: 70vh;
     }
+
+    .contact ul {
+        width: 60%;
+    }
 }
 
 @media (max-width: 900px) {
@@ -518,10 +604,6 @@ form button:active {
     #img1 {
         width: 28%;
         height: 32%;
-    }
-
-    .contact ul {
-        width: 65%;
     }
 }
 
@@ -812,7 +894,7 @@ form button:active {
     }
     
     .cards {
-        height: 45vh;
+        height: 70vh;
     }
     
     .project .card p {
@@ -821,6 +903,7 @@ form button:active {
     
     table {
         font-size: 0.75rem;
+        margin-top: 3rem;
     }
     
     .skills p {
