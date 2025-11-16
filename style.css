@@ -399,7 +399,7 @@ form ul {
     display: flex;
     /* width: 30%; */
     /* justify-content: space-between; */
-    gap: 1.5rem;
+    gap: .7rem;
     /* I want fixed inner gap */
 
 }
