@@ -630,6 +630,7 @@ form ul {
         margin: 1rem 0;
         flex-wrap: wrap;
         gap: 0.5rem;
+        padding-top: 7rem;
     }
     
     nav ul li a {
@@ -890,7 +891,7 @@ form ul {
         height: 150px;
     }
 
-    projects {
+    .projects {
         padding-top: 7rem;
     }
     
