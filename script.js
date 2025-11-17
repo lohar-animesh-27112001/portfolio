@@ -157,9 +157,11 @@ hamburger.addEventListener("click", () => {
     navMenu.classList.toggle("active");
 });
 
-navMenu.addEventListener("click", () => {
-    hamburger.classList.remove("active");
-    navMenu.classList.remove("active");
+navLinks.forEach(link => {
+    link.addEventListener("click", () => {
+        hamburger.classList.remove("active");
+        navMenu.classList.remove("active");
+    });
 });
 
 });
