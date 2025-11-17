@@ -151,6 +151,7 @@ document.getElementById("contactForm").addEventListener("submit", async (e) => {
 
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector("nav ul");
+const navLinks = document.querySelectorAll("nav ul li");
 
 hamburger.addEventListener("click", () => {
     hamburger.classList.toggle("active");
