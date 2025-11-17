@@ -860,11 +860,11 @@ form ul {
     
     nav ul {
         gap: 0.3rem;
+        margin-top: 0;
     }
     
-    nav ul li a {
-        font-size: 1rem;
-        padding: 3px 6px;
+    nav ul li {
+        margin-top: 7rem;
     }
     
     nav button {
@@ -888,6 +888,10 @@ form ul {
     #img1 {
         width: 150px;
         height: 150px;
+    }
+
+    projects {
+        padding-top: 7rem;
     }
     
     .projects,
@@ -915,6 +919,16 @@ form ul {
     
     .skills li {
         font-size: 0.85rem;
+    }
+
+    .education {
+        padding-top: 10rem;
+        background-color: rgba(0, 0, 0, 0.301);
+    }
+
+    .contact {
+        padding-top: 11rem;
+        background-color: rgba(0, 0, 0, 0.301);
     }
     
     .contact h1 {
