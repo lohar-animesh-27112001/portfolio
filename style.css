@@ -508,9 +508,9 @@ form ul {
     }
 
     /* Hide desktop resume button */
-    nav button {
+    /* nav button {
         display: none;
-    }
+    } */
 
     .cards {
         margin-top: 5rem;
@@ -756,6 +756,7 @@ form ul {
     header p {
         font-size: 1rem;
         line-height: 1.5;
+        margin-top: 10px;
     }
     
     header p span {
@@ -876,6 +877,7 @@ form ul {
     
     header p {
         font-size: 0.9rem;
+        margin-top: 4rem;
     }
     
     header p span {
