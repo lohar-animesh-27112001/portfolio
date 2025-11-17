@@ -449,6 +449,7 @@ form ul {
     gap: 5px;
     cursor: pointer;
     z-index: 1100;
+    margin-top: 14px;
 }
 
 .hamburger span {
@@ -877,7 +878,7 @@ form ul {
     
     header p {
         font-size: 0.9rem;
-        margin-top: 4rem;
+        margin-top: 4.4rem;
     }
     
     header p span {
