@@ -626,7 +626,7 @@ form ul {
     
     nav ul {
         width: 100%;
-        justify-content: space-around;
+        /* justify-content: space-around; */
         margin: 1rem 0;
         flex-wrap: wrap;
         gap: 0.5rem;
@@ -865,7 +865,7 @@ form ul {
     }
     
     nav ul li {
-        margin-top: 7rem;
+        margin-top: 1rem;
     }
     
     nav button {
