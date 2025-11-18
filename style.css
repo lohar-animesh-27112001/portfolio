@@ -541,9 +541,9 @@ form ul {
         padding: 6rem 4rem;
     }
 
-    /* .contact ul {
-        width: 50%;
-    } */
+    .contact ul {
+        width: 100%;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -578,7 +578,7 @@ form ul {
     }
 
     .contact ul {
-        width: 60%;
+        width: 100%;
     }
 }
 
@@ -729,7 +729,7 @@ form ul {
     }
     
     .contact ul {
-        width: 80%;
+        width: 100%;
         flex-wrap: wrap;
         gap: 1rem;
         justify-content: center;
@@ -840,7 +840,7 @@ form ul {
     }
     
     .contact ul {
-        width: 95%;
+        width: 100%;
         gap: 0.8rem;
     }
     
