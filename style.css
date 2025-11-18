@@ -209,24 +209,24 @@ header p span {
     transition: background-color 0.3s ease;
 }
 
-.education {
+/* .education {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: whitesmoke;
     padding: 7rem 5rem 7rem;
-}
+} */
 
-.contact {
+/* .contact {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: whitesmoke;
     padding: 7rem 5rem 7rem;
-}
+} */
 
 /* Education Section Styles */
 .education {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: whitesmoke;
     padding: 7rem 5rem 7rem;
     display: flex;
@@ -316,7 +316,7 @@ table tr:last-child td {
 /* Contact Section Styles */
 .contact {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: whitesmoke;
     padding: 7rem 5rem 7rem;
     display: flex;
